@@ -59,6 +59,19 @@ password based door locking system hence the need for such automated digital loc
 #### How:
 This design of electronic based security system is fully microcontroller based system. The operation involves entering of a paascode to the system with the use of keypad which will intiate display and opening of the lock .It is more efficent security system as compared to the conventional key system .
 
+# High level Requirements 
+| ID | Description  |Status|
+| ------ | ------ |------|
+| HLR  1 | System should accept entered password. | Implemented|
+| HLR  2 | It should display the entered password  |Implemented |
+| HLR  3 | It should check if entered password is correct and grant access. | Implemented |
+
+# Low level Requirements 
+| ID | Description  | Status |
+| ------ | ------ | ------|
+| LLR  1 | In case wrong password entered system should display error messsage  | Implemented |
+| LLR  2 | It should allow to enter password 3 times in case oof failed attempt | Implemented |
+
 
 
  
